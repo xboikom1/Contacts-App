@@ -1,18 +1,25 @@
 # Contacts App
 
-Node.js + MongoDB contact-management backend project with Swagger API documentation.
+Node.js + MongoDB backend for managing contacts. REST API with Swagger documentation.
 
-## Key technologies
+## Main features
+- Contacts CRUD operations
+- User registration and JWT-based authentication
+- Password hashing with bcrypt
+- Request validation with Joi
+- File upload for avatars (multer) and Cloudinary storage
+- Email notifications (SMTP / nodemailer)
+- Structured HTTP logging (pino / pino-http)
+- Centralized error handling
+- API documentation generation with Redocly / Swagger
+
+## Tech stack
 - Node.js
 - Express.js
-- MongoDB / Mongoose (Data Base)
-- JSON Web Tokens (authentication)
-- bcrypt (password hashing)
-- multer + cloudinary (file upload/storage)
-- nodemailer (email)
-- Joi (validation)
-- pino / pino-http (logging)
-- Redocly / Swagger (API documentation)
+- MongoDB with Mongoose
+- JSON Web Tokens
+- bcrypt, multer, cloudinary, nodemailer, joi, pino
+- Redocly / swagger-ui-express for API docs
 
 ## Environment variables
 - PORT
